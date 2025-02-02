@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - Log In or Sign Up</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 980px;
+        }
+        .text-section {
+            width: 50%;
+        }
+        .text-section h1 {
+            color: #1877f2;
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        .text-section p {
+            font-size: 20px;
+            color: #333;
+        }
+        .login-box {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 350px;
+            text-align: center;
+        }
+        input {
+            width: 90%;
+            padding: 12px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+        .login-btn {
+            background: #1877f2;
+            color: white;
+            border: none;
+            padding: 12px;
+            width: 100%;
+            font-size: 18px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        .login-btn:hover {
+            background: #165cbb;
+        }
+        .forgot-password {
+            display: block;
+            margin: 10px 0;
+            color: #1877f2;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .forgot-password:hover {
+            text-decoration: underline;
+        }
+        .create-account {
+            background: #42b72a;
+            color: white;
+            border: none;
+            padding: 12px;
+            width: 100%;
+            font-size: 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .create-account:hover {
+            background: #369620;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 12px;
+            color: #777;
+        }
+        .create-special{
+            margin-top: 10px;
+            text-align: left;
+            font-size: 14px;
+            color: #606770;
+        }
+        .create-special a {
+            font-weight: bold;
+            color: black;
+            text-decoration: none;
+        }
+        .create-special a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="text-section">
+        <h1>facebook</h1>
+        <p>Facebook помогает вам всегда оставаться на связи и общаться со своими знакомыми.</p>
+    </div>
+    <div class="login-box">
+        <input type="text" placeholder="Электронный адрес или номер телефона" required>
+        <input type="password" placeholder="Пароль" required>
+        <button class="login-btn">Вход</button>
+        <a href="#" class="forgot-password">Забыли пароль?</a>
+        <hr>
+        <button class="create-account">Создать аккаунт</button>
+<button class="create-special"><a href="https://www.facebook.com/pages/create/?ref_type=registration_form">Создать Страницу</a> знаменитости, музыкальной группы или компании.</button>
+</div>
+</div>
+
+<div class="footer">
+    Facebook © 2025
+</div>
+</body>
+</html>
